@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class UserRole extends Model
 {
     protected $fillable = [
-        'name',
-        'id',
+        'user_id',
+        'role_id',
     ];
-    public $timestamps =false;
+    public $timestamps = false;
 }
